@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+.buttonCart {
+  background: red;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonCart:hover {
+  background: mediumslateblue;
+}
+
+
+.buttonVer {
+  background: cyan;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonCart:hover {
+  background: coral;
+}
+
+.buttonPrice {
+  background: green;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonPrice:hover {
+  background: greenyellow;
+}
+
+.buttonCountRed {
+  background: red;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonCountRed:hover {
+  background: mediumvioletred;
+}
+
+.buttonCountBlue {
+  background: blue;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonCountBlue:hover {
+  background: mediumslateblue;
+}

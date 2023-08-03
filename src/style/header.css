@@ -1,0 +1,61 @@
+.hero {
+    background: linear-gradient(to right,
+            hsla(0, 1%, 54%, 0.459),
+            hsla(300, 3%, 7%, 0.664)),
+        url(../assets/img/pizza.jpeg);
+    background-size: cover;
+    height: 32vh;
+}
+
+.hero-text {
+    display: flex;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 3px solid moccasin;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.hero-text h3 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 30px !important;
+    }
+
+    .hero-text h3 {
+        font-size: 14px;
+    }
+
+    .hero {
+        height: 30vh;
+    }
+
+    .hero-text {
+        padding-top: 40px !important;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-text {
+        padding-top: 100px;
+        border: none;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+    }
+}
